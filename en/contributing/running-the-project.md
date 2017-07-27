@@ -28,16 +28,16 @@ drupal8.dev \
 --no-interaction
 ```
 
-### Download the Drupal Console Develop package
-```
-composer require drupal/console-develop --dev
-```
-
 ### Install Drupal using SQLite
 ```
 drupal site:install standard --db-type="sqlite" --no-interaction
 ```
-> NOTE: You can install drupal using MySQL by executing the `site:install` command and answering the questions from the interactive mode.
+> NOTE: You can install drupal using MySQL by executing the `site:install` command and answering the questions from the interactive mode or passing the required options.
+
+### Download the Drupal Console Develop package
+```
+composer require drupal/console-develop --dev
+```
 
 ### Create a symbolic link between Drupal and forked repositories
 ```
