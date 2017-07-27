@@ -13,6 +13,7 @@ The option `--drupal` is the directory where the new drupal site will be created
 
 > NOTES:
 > You must execute `drupal init` before in order to copy the `~/.console/chain/develop-contribute.yml` on your local system.
+>
 > Make sure you have the latest version of DrupalConsole. Get the latest version of DrupalConsole by following the instructions as mentioned [here](https://github.com/hechoendrupal/drupal-console-launcher/blob/master/README.md).
 
 ## Execute all the steps manually
